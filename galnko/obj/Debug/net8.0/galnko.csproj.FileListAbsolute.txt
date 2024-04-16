@@ -1,0 +1,7 @@
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/galnko.csproj.AssemblyReference.cache
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/Avalonia/resources
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/galnko.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/galnko.AssemblyInfoInputs.cache
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/galnko.AssemblyInfo.cs
+/home/user/RiderProjects/galnko/galnko/obj/Debug/net8.0/galnko.csproj.CoreCompileInputs.cache

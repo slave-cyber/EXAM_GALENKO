@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="galnko/11.axaml" value="galnko/galnko.csproj" />
+        <entry key="galnko/App.axaml" value="galnko/galnko.csproj" />
+        <entry key="galnko/MainWindow.axaml" value="galnko/galnko.csproj" />
+        <entry key="galnko/avtaris.axaml" value="galnko/galnko.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

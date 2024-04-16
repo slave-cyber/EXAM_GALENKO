@@ -1,0 +1,44 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="galnko.MainWindow"
+        Title="galnko">
+        <Grid>
+                <StackPanel Orientation="Vertical">
+              <DataGrid Name="fit" x:CompileBindings="False" Margin ="10 20 0 0" Height="250">
+                                <DataGrid.Columns>
+                                        <DataGridTextColumn Header="id" Binding="{Binding id}"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="name" Binding="{Binding name}"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="phone" Binding="{Binding phone}"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="rosden" Binding="{Binding rosden}"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="пол" Binding="{Binding пол}"></DataGridTextColumn>
+                                        <DataGridTextColumn Header="скидка" Binding="{Binding скидка}"></DataGridTextColumn>
+                                </DataGrid.Columns>
+                        </DataGrid>
+                </StackPanel>
+                <StackPanel>
+                      <TextBox Name="t1"></TextBox>
+                        
+                        <ComboBox Name="CmbDost" Width="200" Margin ="10 10 0 0" 
+                                   x:CompileBindings="False"
+                                   SelectionChanged="Filtervip_OnClick">
+                                <DataTemplate>
+                                        <TextBlock Text="{Binding adress}"></TextBlock>
+                                </DataTemplate>
+                                
+                        </ComboBox>
+                </StackPanel>
+                <StackPanel>
+                        <Button Name="dell" Click="Dell_OnClick"></Button>
+                        <Button Name="filter" Click="Filter_OnClick"></Button>
+                        <Button Name="filtervip" Click="Filtervip_OnClick"></Button>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                        
+                        
+                </StackPanel>
+        </Grid>
+</Window>
